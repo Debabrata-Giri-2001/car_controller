@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.no-copy {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
