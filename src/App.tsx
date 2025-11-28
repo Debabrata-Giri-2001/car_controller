@@ -39,7 +39,7 @@ export default function App() {
     let model: THREE.Object3D | null = null;
 
     const dracoLoader = new DRACOLoader();
-    dracoLoader.setDecoderPath('node_modules/three/examples/jsm/libs/draco/')
+    dracoLoader.setDecoderPath('https://www.gstatic.com/draco/v1/decoders/');
 
     const loader = new GLTFLoader();
     loader.setDRACOLoader(dracoLoader);
