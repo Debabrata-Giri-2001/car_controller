@@ -218,7 +218,7 @@ export default function App() {
         // Smooth follow camera behind car
         const offsetVec = new THREE.Vector3(offset.x, offset.y, offset.z);
         offsetVec.applyQuaternion(model.quaternion);
-        const targetPos = model.position.clone().add(offsetVec);
+        // const targetPos = model.position.clone().add(offsetVec);
         // camera.position.lerp(targetPos, 0.08);
 
         controls.target.copy(model.position);
